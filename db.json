@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "NILuFtG9InmbzbLFfag4e",
+      "phone": "+15551234567",
+      "createdAt": 1760657009876,
+      "verified": true,
+      "passwordHash": "$2a$08$JyMyMZ4aZnbXiiNu533j6Ovg0KJ0Cy6UxWSoLqJogs6ShzWfVVLSa",
+      "completedAt": 1760658317637
+    },
+    {
+      "id": "uxAgpeaehwPmKnoso9SI4",
+      "phone": "+19998887766",
+      "createdAt": 1760658750976,
+      "verified": true,
+      "passwordHash": "$2a$08$4cTA10jPGuW5zeisVUphmujwISTz5b5lYTdjqd77yOi4Q99nAQI4C",
+      "completedAt": 1760658757148
+    }
+  ],
+  "codes": [
+    {
+      "id": "SG24gbAknYlC67YbJrmWn",
+      "phone": "+15551234567",
+      "code": "482092",
+      "createdAt": 1760657009876
+    },
+    {
+      "id": "IdSXzFucNrlpbkUAV_NsX",
+      "phone": "+15551234567",
+      "code": "382610",
+      "createdAt": 1760657572343
+    },
+    {
+      "id": "0hoqtFRM3T0QVh-BqovZ0",
+      "phone": "+15551234567",
+      "code": "679705",
+      "createdAt": 1760658317155
+    },
+    {
+      "id": "1JckW8wQCbdb6_CdLuFjR",
+      "phone": "+19998887766",
+      "code": "827857",
+      "createdAt": 1760658750976
+    }
+  ]
+}

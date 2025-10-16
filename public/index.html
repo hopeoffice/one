@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Telegram-like Login Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="bg-decor"></div>
+      <div class="card" id="app">
+        <div class="brand">
+          <div class="logo"><img src="/assets/logo.svg" alt="logo" width="40" height="40"/></div>
+          <div class="title">Telegram — Demo</div>
+          <div class="theme-toggle">
+            <label title="Toggle dark theme">
+              <input id="themeToggle" type="checkbox" />
+              <span class="switch"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="steps">
+          <div id="step-phone" class="step">
+            <div class="hint">Enter your phone number to sign in or create an account</div>
+            <div class="field">
+              <input id="phone" placeholder="+1 555 555 5555" inputmode="tel" />
+            </div>
+            <div class="actions"><button id="sendCodeBtn">Send Code</button></div>
+          </div>
+
+          <div id="step-code" class="step hidden">
+            <div class="hint">We sent a 6-digit code to your phone</div>
+            <div class="field">
+              <input id="code" placeholder="123456" inputmode="numeric" maxlength="6" />
+            </div>
+            <div class="actions"><button id="verifyBtn">Verify Code</button></div>
+          </div>
+
+          <div id="step-password" class="step hidden">
+            <div class="hint">Set a password for your account</div>
+            <div class="field">
+              <input id="password" type="password" placeholder="Password" />
+            </div>
+            <div class="actions"><button id="setPasswordBtn">Set Password</button></div>
+          </div>
+
+          <div id="done" class="step hidden done-card">
+            <div class="done-emoji">✅</div>
+            <div class="done-text">Done! You have completed the demo.</div>
+          </div>
+        </div>
+
+        <div class="log-wrap"><pre id="log" class="log"></pre></div>
+      </div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
